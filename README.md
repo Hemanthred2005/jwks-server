@@ -32,3 +32,22 @@ jwks-server/
 ```bash
 git clone https://github.com/Hemanthred2005/jwks-server.git
 cd jwks-server
+
+
+
+## 📸 Screenshots
+
+Here are the required proof screenshots for the JWKS server:
+
+1. **Server running (`npm start`)**  
+   ![Server Running](./src/screenshots/npm-start.png)
+
+2. **Tests passing (`npm test`)**  
+   ![Tests Passing](./src/screenshots/npm-test.png)
+
+3. **Test coverage (`npm run coverage`)**  
+   ![Coverage Report](./src/screenshots/npm-coverage.png)
+
+4. **Blackbox test client (`node test-client.js`)**  
+   ![Test Client](./src/screenshots/test-client.png)
+
