@@ -1,11 +1,11 @@
-# 🔐 JWKS Server
+# JWKS Server
 
 A simple **JWKS (JSON Web Key Set) server** built using **Node.js + Express**.  
 It serves JSON Web Keys for testing JWT signing and verification, and provides endpoints to issue both **valid** and **expired JWTs** for client testing.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 
 jwks-server/
@@ -26,18 +26,18 @@ jwks-server/
 └── README.md
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 - Node.js **v18+**
 - npm (comes with Node.js)
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 1. **Clone the repository**
    ```bash
@@ -45,19 +45,12 @@ jwks-server/
    cd jwks-server
 
 
-## 📸 Screenshots
+## Deliverables
+- GitHub repository link containing the source code.
+- Screenshots showing:
+  - Server running
+  - Tests passing
+  - Coverage report
+  - Blackbox test client results
 
-Here are the required proof screenshots for the JWKS server:
-
-1. **Server running (`npm start`)**  
-   ![Server Running](./src/screenshots/npm-start.png)
-
-2. **Tests passing (`npm test`)**  
-   ![Tests Passing](./src/screenshots/npm-test.png)
-
-3. **Test coverage (`npm run coverage`)**  
-   ![Coverage Report](./src/screenshots/npm-coverage.png)
-
-4. **Blackbox test client (`node test-client.js`)**  
-   ![Test Client](./src/screenshots/test-client.png)
 
