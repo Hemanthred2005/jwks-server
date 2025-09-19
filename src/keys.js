@@ -14,6 +14,8 @@
  // pickKey({ expired }): choose a key by expiry state (used by /auth route).
 
  // allKeys: shallow copy for any debugging/tests.
+
+ // This is the test line to see in the git
  import { generateKeyPair, exportJWK } from "jose";
 import { v4 as uuidv4 } from "uuid";
 import { isExpired, minutesFromNow, nowSeconds } from "./util.js";
